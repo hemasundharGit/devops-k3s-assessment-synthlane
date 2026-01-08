@@ -1,0 +1,12 @@
+oidc:
+  clientId: "test"
+  clientSecret: ""
+  issuer: "https://http://newerp.kluniversity.in/auth/realms/hyperplane/.well-known/openid-configuration"
+  scopes:
+    - openid
+    - profile
+    - email
+
+extraEnv:
+  - name: NODE_TLS_REJECT_UNAUTHORIZED
+    value: "0"

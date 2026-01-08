@@ -1,1 +1,0 @@
-# devops-k3s-assessment
